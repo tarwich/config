@@ -1,0 +1,9 @@
+{
+  "devDependencies": {
+    "esbuild": "^0.23.0"
+  },
+  "prettier": {
+    "singleQuote": true,
+    "trailingComma": "all"
+  }
+}
