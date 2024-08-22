@@ -1,6 +1,6 @@
 import { apply } from './lib/apply';
 
-import { $, $$, $ready, preventDefault } from './lib/dom-shortcuts';
+import { $, $$, $ready, $watch, preventDefault } from './lib/dom-shortcuts';
 
 /**
  * Create a new DOM element with the specified tag name, properties, and
@@ -43,4 +43,5 @@ Object.assign(window, {
   $ready,
   preventDefault,
   $n,
+  $watch,
 });
