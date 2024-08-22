@@ -1,6 +1,11 @@
 {
   "name": "tarwich-boosts",
   "version": "0.0.1",
+  "scripts": {
+    "build": "npm run build:esbuild",
+    "build:bun": "bun build src/n.ts --outfile dist/n.js --minify --format=esm",
+    "build:esbuild": "esbuild --outfile=dist/n.js --bundle --minify src/n.ts"
+  },
   "devDependencies": {
     "esbuild": "^0.23.0"
   },
