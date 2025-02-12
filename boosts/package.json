@@ -7,7 +7,7 @@
     "build:esbuild": "esbuild --outfile=dist/n.js --bundle --minify src/n.ts"
   },
   "devDependencies": {
-    "esbuild": "^0.23.0"
+    "esbuild": "^0.25.0"
   },
   "prettier": {
     "singleQuote": true,
